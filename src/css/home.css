@@ -1,0 +1,69 @@
+*::after,*::before,* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color:black;
+}
+
+#nav-header {
+  padding: 20px;
+  font-size: 1.5rem;
+  margin-left: 10%;
+}
+
+#nav-ul {
+  display: flex;
+  list-style-type: none;
+
+  margin-right: 10%;
+}
+
+.nav-li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-li button{
+  padding: 20px;
+  border: 1px solid white;
+}
+
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+#bg-home-img {
+  background: url('../images/pizzabg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+body {
+  overflow: hidden;
+}
+
+#home-txt {
+  text-align: right;
+  font-size: 1.5rem;
+  padding-top: 10%;
+  padding-right: 7%;
+}
+
+#home-btns button {
+  border: 1px solid white;
+}

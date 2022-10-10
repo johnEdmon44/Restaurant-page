@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import './style.css';
+import './css/home.css';
+import './images/pizzabg.jpg';
+import './home';
 'use strict';
-
-console.log('test');
