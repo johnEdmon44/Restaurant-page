@@ -68,9 +68,6 @@ button {
   border: 1px solid white;
 }
 
-#home {
-  visibility: hidden;
-}
 
 #content {
   height: 100vh;
